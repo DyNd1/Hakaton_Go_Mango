@@ -1310,10 +1310,6 @@
                     "channelId": 503737
                 },
                 {
-                    "category": "TEMPORARY",
-                    "channelId": 41376406
-                },
-                {
                     "category": "FRIENDLY",
                     "channelId": 27436
                 },
@@ -1683,7 +1679,7 @@
                 },
                 {
                     "name": "ngarry",
-                    "flags": "a",
+                    "flags": "ca",
                     "authLevel": "sr_admin"
                 },
                 {
@@ -1704,9 +1700,8 @@
         {
             "games": [
                 {
+                    "over": true,
                     "gameType": "ranked",
-                    "komi": 0.5,
-                    "size": 19,
                     "saved": true,
                     "handicap": 2,
                     "players": {
@@ -1717,68 +1712,38 @@
                         },
                         "black": {
                             "name": "gala",
-                            "flags": "cp=~",
+                            "flags": "=~",
                             "rank": "7k"
-                        }
-                    },
-                    "moveNum": 76,
-                    "global": true,
-                    "channelId": 41377354,
-                    "roomId": 22
-                },
-                {
-                    "gameType": "review",
-                    "komi": 0.5,
-                    "private": true,
-                    "size": 19,
-                    "handicap": 6,
-                    "players": {
-                        "owner": {
-                            "name": "vtllvk",
-                            "flags": "csp=",
-                            "rank": "?"
-                        },
-                        "white": {
-                            "name": "dfeldmann",
-                            "flags": "=",
-                            "rank": "9d",
-                            "authLevel": "robot_ranked"
-                        },
-                        "black": {
-                            "name": "doseisan",
-                            "flags": "a=",
-                            "rank": "3d"
-                        }
-                    },
-                    "moveNum": 274,
-                    "global": true,
-                    "channelId": 41375474,
-                    "roomId": 22
-                },
-                {
-                    "over": true,
-                    "gameType": "ranked",
-                    "score": "B+RESIGN",
-                    "komi": 6.5,
-                    "size": 19,
-                    "saved": true,
-                    "handicap": 0,
-                    "players": {
-                        "white": {
-                            "name": "Dragon02",
-                            "flags": "csap=",
-                            "rank": "8k"
-                        },
-                        "black": {
-                            "name": "fox21",
-                            "flags": "cp=",
-                            "rank": "8k"
                         }
                     },
                     "moveNum": 0,
                     "global": true,
-                    "channelId": 41374695,
-                    "roomId": 22
+                    "roomId": 22,
+                    "score": "B+TIME",
+                    "komi": 0.5,
+                    "size": 19,
+                    "channelId": 41377354,
+                    "observers": 1
+                },
+                {
+                    "gameType": "demonstration",
+                    "private": true,
+                    "handicap": 0,
+                    "players": {
+                        "owner": {
+                            "name": "anton007",
+                            "flags": "cap"
+                        }
+                    },
+                    "moveNum": 43,
+                    "global": true,
+                    "roomId": 22,
+                    "komi": 7.5,
+                    "size": 19,
+                    "uploaded": true,
+                    "name": "TIP round 1",
+                    "channelId": 41378250,
+                    "observers": 1
                 }
             ],
             "type": "ROOM_JOIN",
@@ -1786,11 +1751,11 @@
             "users": [
                 {
                     "name": "hiss",
-                    "flags": "c"
+                    "flags": "cs"
                 },
                 {
                     "name": "Dara",
-                    "flags": "csa=",
+                    "flags": "ca=",
                     "rank": "6k"
                 },
                 {
@@ -1803,19 +1768,9 @@
                     "rank": "7k"
                 },
                 {
-                    "name": "morish",
-                    "flags": "csp=~",
-                    "rank": "6k"
-                },
-                {
                     "name": "Rahmat",
-                    "flags": "c=",
+                    "flags": "cs=",
                     "rank": "5d"
-                },
-                {
-                    "name": "Dragon02",
-                    "flags": "csap=",
-                    "rank": "8k"
                 },
                 {
                     "name": "motofumi6",
@@ -1830,26 +1785,6 @@
                 {
                     "name": "VadimSav",
                     "flags": "cp"
-                },
-                {
-                    "name": "vtllvk",
-                    "flags": "csp=",
-                    "rank": "?"
-                },
-                {
-                    "name": "Jazus1946",
-                    "flags": "cp=",
-                    "rank": "4k"
-                },
-                {
-                    "name": "Sasha2009",
-                    "flags": "csa=~",
-                    "rank": "1d"
-                },
-                {
-                    "name": "Alkapone",
-                    "flags": "cp=~",
-                    "rank": "3d"
                 },
                 {
                     "name": "Centyrion",
@@ -1872,33 +1807,13 @@
                     "rank": "3k"
                 },
                 {
-                    "name": "Claus",
-                    "flags": "cs=~",
-                    "rank": "2k"
-                },
-                {
-                    "name": "mreznits",
-                    "flags": "cs=~",
-                    "rank": "2k"
-                },
-                {
                     "name": "qertis",
                     "flags": "cp=~",
                     "rank": "4k"
                 },
                 {
-                    "name": "gala",
-                    "flags": "cp=~",
-                    "rank": "7k"
-                },
-                {
-                    "name": "odmin65537",
-                    "flags": "cap=m",
-                    "rank": "2d"
-                },
-                {
                     "name": "Toropu4ka",
-                    "flags": "ca=",
+                    "flags": "csa=",
                     "rank": "6k"
                 },
                 {
@@ -1910,6 +1825,65 @@
                     "name": "oleg999",
                     "flags": "ca=",
                     "rank": "?"
+                },
+                {
+                    "name": "kkotto",
+                    "flags": "cp=",
+                    "rank": "4k"
+                },
+                {
+                    "name": "wery",
+                    "flags": "cap=",
+                    "rank": "1k"
+                },
+                {
+                    "name": "anton007",
+                    "flags": "cap"
+                },
+                {
+                    "name": "Km1",
+                    "flags": "cp=~",
+                    "rank": "2d"
+                },
+                {
+                    "name": "PUHAT",
+                    "flags": "cp=",
+                    "rank": "2k"
+                },
+                {
+                    "name": "ngarry",
+                    "flags": "ca",
+                    "authLevel": "sr_admin"
+                },
+                {
+                    "name": "KaupervudA",
+                    "flags": "c=",
+                    "rank": "?"
+                },
+                {
+                    "name": "Giharka",
+                    "flags": "cp=",
+                    "rank": "9k"
+                },
+                {
+                    "name": "sannik",
+                    "flags": "cap=",
+                    "rank": "4k"
+                },
+                {
+                    "name": "giorgi",
+                    "flags": "cap=",
+                    "rank": "4k"
+                },
+                {
+                    "name": "fantomas63",
+                    "flags": "ca=",
+                    "rank": "5k"
+                },
+                {
+                    "name": "o0key",
+                    "flags": "c=",
+                    "rank": "3d?"
                 },
                 {
                     "name": "jsongame",
@@ -1946,7 +1920,7 @@
                 },
                 {
                     "name": "ngarry",
-                    "flags": "a",
+                    "flags": "ca",
                     "authLevel": "sr_admin"
                 },
                 {
@@ -1993,7 +1967,7 @@
                 },
                 {
                     "name": "it",
-                    "flags": "a=",
+                    "flags": "ca=",
                     "rank": "?",
                     "authLevel": "sr_admin"
                 },
@@ -2027,6 +2001,29 @@
                     "komi": 0.5,
                     "size": 19,
                     "saved": true,
+                    "handicap": 0,
+                    "players": {
+                        "white": {
+                            "name": "gg6",
+                            "flags": "cp=",
+                            "rank": "3k"
+                        },
+                        "black": {
+                            "name": "kkotto",
+                            "flags": "cp=",
+                            "rank": "4k"
+                        }
+                    },
+                    "moveNum": 102,
+                    "global": true,
+                    "channelId": 41377869,
+                    "roomId": 31
+                },
+                {
+                    "gameType": "ranked",
+                    "komi": 0.5,
+                    "size": 19,
+                    "saved": true,
                     "handicap": 3,
                     "players": {
                         "white": {
@@ -2040,7 +2037,7 @@
                             "rank": "2k"
                         }
                     },
-                    "moveNum": 94,
+                    "moveNum": 171,
                     "global": true,
                     "channelId": 41377099,
                     "roomId": 31
@@ -2051,17 +2048,12 @@
             "users": [
                 {
                     "name": "hiss",
-                    "flags": "c"
+                    "flags": "cs"
                 },
                 {
                     "name": "AlohaGo",
                     "flags": "csa=~",
                     "rank": "2k"
-                },
-                {
-                    "name": "hujg",
-                    "flags": "gcm",
-                    "rank": "?"
                 },
                 {
                     "name": "CheyenneGO",
@@ -2075,23 +2067,13 @@
                 },
                 {
                     "name": "midcontrol",
-                    "flags": "cp=",
+                    "flags": "c=",
                     "rank": "2k"
                 },
                 {
                     "name": "kurosuke",
                     "flags": "cs=",
                     "rank": "3d"
-                },
-                {
-                    "name": "qingantao",
-                    "flags": "cs=~",
-                    "rank": "1k"
-                },
-                {
-                    "name": "scdcsa",
-                    "flags": "cp=",
-                    "rank": "6k"
                 },
                 {
                     "name": "z2",
@@ -2105,7 +2087,7 @@
                 },
                 {
                     "name": "Kitty",
-                    "flags": "cs=",
+                    "flags": "cp=",
                     "rank": "3d"
                 },
                 {
@@ -2115,7 +2097,7 @@
                 },
                 {
                     "name": "Dara",
-                    "flags": "csa=",
+                    "flags": "ca=",
                     "rank": "6k"
                 },
                 {
@@ -2129,23 +2111,13 @@
                     "rank": "4k"
                 },
                 {
-                    "name": "venus8",
-                    "flags": "csp=~",
-                    "rank": "4d"
-                },
-                {
                     "name": "BlueFox810",
-                    "flags": "cs=",
+                    "flags": "cp=",
                     "rank": "5k"
                 },
                 {
                     "name": "KaGeO",
                     "flags": "gcs",
-                    "rank": "?"
-                },
-                {
-                    "name": "amahito",
-                    "flags": "cp=",
                     "rank": "?"
                 },
                 {
@@ -2169,23 +2141,18 @@
                     "rank": "?"
                 },
                 {
-                    "name": "hirochan",
-                    "flags": "cs=",
-                    "rank": "7k?"
-                },
-                {
                     "name": "maruki",
                     "flags": "cp=",
                     "rank": "?"
                 },
                 {
                     "name": "Pakguard",
-                    "flags": "c=",
-                    "rank": "21k?"
+                    "flags": "cp=",
+                    "rank": "16k?"
                 },
                 {
                     "name": "kant1985",
-                    "flags": "c=",
+                    "flags": "cp=",
                     "rank": "5d"
                 },
                 {
@@ -2194,7 +2161,7 @@
                 },
                 {
                     "name": "airararara",
-                    "flags": "c=",
+                    "flags": "cs=",
                     "rank": "5d"
                 },
                 {
@@ -2204,7 +2171,7 @@
                 },
                 {
                     "name": "morityan",
-                    "flags": "cs=~",
+                    "flags": "c=~",
                     "rank": "2k?"
                 },
                 {
@@ -2213,24 +2180,14 @@
                     "rank": "5k"
                 },
                 {
-                    "name": "torajirou",
-                    "flags": "cp=",
-                    "rank": "?"
-                },
-                {
                     "name": "oyahukou",
-                    "flags": "c=~",
+                    "flags": "cp=~",
                     "rank": "1k"
                 },
                 {
                     "name": "sss1122",
-                    "flags": "c=",
-                    "rank": "3d"
-                },
-                {
-                    "name": "snootli",
                     "flags": "cp=",
-                    "rank": "2k"
+                    "rank": "3d"
                 },
                 {
                     "name": "hitt",
@@ -2246,16 +2203,6 @@
                     "name": "tigerman",
                     "flags": "cp=",
                     "rank": "1k"
-                },
-                {
-                    "name": "TaTa",
-                    "flags": "gcs",
-                    "rank": "?"
-                },
-                {
-                    "name": "cao2725",
-                    "flags": "gcs",
-                    "rank": "?"
                 },
                 {
                     "name": "havehujima",
@@ -2289,7 +2236,7 @@
                 },
                 {
                     "name": "sei",
-                    "flags": "c=",
+                    "flags": "cs=",
                     "rank": "1d"
                 },
                 {
@@ -2309,12 +2256,12 @@
                 },
                 {
                     "name": "OldSkoolGo",
-                    "flags": "c=",
+                    "flags": "cs=",
                     "rank": "3d"
                 },
                 {
                     "name": "kunato37",
-                    "flags": "cs=",
+                    "flags": "c=",
                     "rank": "4k"
                 },
                 {
@@ -2333,11 +2280,6 @@
                     "rank": "?"
                 },
                 {
-                    "name": "Saul",
-                    "flags": "c=",
-                    "rank": "14k?"
-                },
-                {
                     "name": "os",
                     "flags": "gcs",
                     "rank": "?"
@@ -2346,31 +2288,6 @@
                     "name": "tropzero",
                     "flags": "cp=",
                     "rank": "5k"
-                },
-                {
-                    "name": "Nightwatch",
-                    "flags": "gcs",
-                    "rank": "?"
-                },
-                {
-                    "name": "TieuTuyet",
-                    "flags": "cap=",
-                    "rank": "1k"
-                },
-                {
-                    "name": "mino007",
-                    "flags": "c=~",
-                    "rank": "3k"
-                },
-                {
-                    "name": "kaz0m",
-                    "flags": "cp=",
-                    "rank": "2k"
-                },
-                {
-                    "name": "phil78",
-                    "flags": "cs=",
-                    "rank": "?"
                 },
                 {
                     "name": "umebosi",
@@ -2385,7 +2302,7 @@
                 {
                     "name": "Shiya7D",
                     "flags": "cp=",
-                    "rank": "11k?"
+                    "rank": "11k"
                 },
                 {
                     "name": "tenhou",
@@ -2399,13 +2316,8 @@
                 },
                 {
                     "name": "tgbrophy",
-                    "flags": "cp=",
+                    "flags": "csp=",
                     "rank": "6k"
-                },
-                {
-                    "name": "katuawa",
-                    "flags": "cs=~",
-                    "rank": "3k"
                 },
                 {
                     "name": "wavezb",
@@ -2424,7 +2336,7 @@
                 },
                 {
                     "name": "lowstream",
-                    "flags": "gcp",
+                    "flags": "gc",
                     "rank": "?"
                 },
                 {
@@ -2434,7 +2346,7 @@
                 },
                 {
                     "name": "oliogo",
-                    "flags": "cp=",
+                    "flags": "c=",
                     "rank": "5k"
                 },
                 {
@@ -2443,12 +2355,7 @@
                 },
                 {
                     "name": "mjmpurin",
-                    "flags": "cp=",
-                    "rank": "1k"
-                },
-                {
-                    "name": "eiichi2",
-                    "flags": "cp=",
+                    "flags": "c=",
                     "rank": "1k"
                 },
                 {
@@ -2458,13 +2365,8 @@
                 },
                 {
                     "name": "untmo",
-                    "flags": "gcp",
+                    "flags": "gcs",
                     "rank": "?"
-                },
-                {
-                    "name": "DNA",
-                    "flags": "cp=~",
-                    "rank": "1k"
                 },
                 {
                     "name": "VadimSav",
@@ -2474,11 +2376,6 @@
                     "name": "kumanoko88",
                     "flags": "cs=~",
                     "rank": "4k"
-                },
-                {
-                    "name": "hiyamagoro",
-                    "flags": "gcp",
-                    "rank": "?"
                 },
                 {
                     "name": "shoephone",
@@ -2491,67 +2388,22 @@
                     "rank": "2d"
                 },
                 {
-                    "name": "Skiffeur",
-                    "flags": "cs=~",
-                    "rank": "6k"
-                },
-                {
                     "name": "banjup",
-                    "flags": "cap=~",
+                    "flags": "ca=~",
                     "rank": "4k"
                 },
                 {
                     "name": "mitsu3",
-                    "flags": "c=",
-                    "rank": "1k"
-                },
-                {
-                    "name": "zoku1054",
                     "flags": "cs=",
-                    "rank": "5d?"
-                },
-                {
-                    "name": "mtn123xyz",
-                    "flags": "cp=",
-                    "rank": "3k"
-                },
-                {
-                    "name": "vtllvk",
-                    "flags": "csp=",
-                    "rank": "?"
-                },
-                {
-                    "name": "sakuraku",
-                    "flags": "cp=",
-                    "rank": "1k"
-                },
-                {
-                    "name": "gokitin90",
-                    "flags": "cp=",
-                    "rank": "2k"
-                },
-                {
-                    "name": "argaman",
-                    "flags": "cs=~",
                     "rank": "1k"
                 },
                 {
                     "name": "kukulu",
-                    "flags": "cs=",
+                    "flags": "cp=",
                     "rank": "1k"
                 },
                 {
                     "name": "SprAut",
-                    "flags": "cp=",
-                    "rank": "4k"
-                },
-                {
-                    "name": "iesiatreal",
-                    "flags": "cp=",
-                    "rank": "3k"
-                },
-                {
-                    "name": "Jazus1946",
                     "flags": "cp=",
                     "rank": "4k"
                 },
@@ -2562,18 +2414,8 @@
                 },
                 {
                     "name": "yuta1341",
-                    "flags": "c=",
+                    "flags": "cs=",
                     "rank": "4k"
-                },
-                {
-                    "name": "kurumi02",
-                    "flags": "cp=",
-                    "rank": "2d"
-                },
-                {
-                    "name": "kingkobra",
-                    "flags": "cp=",
-                    "rank": "9k"
                 },
                 {
                     "name": "tamotsu",
@@ -2581,29 +2423,14 @@
                     "rank": "5k"
                 },
                 {
-                    "name": "qgo",
-                    "flags": "cp=",
-                    "rank": "3k"
-                },
-                {
                     "name": "probicsek",
-                    "flags": "c=",
+                    "flags": "cp=",
                     "rank": "2d"
                 },
                 {
                     "name": "kapur",
                     "flags": "cp=",
                     "rank": "3d"
-                },
-                {
-                    "name": "naka0367",
-                    "flags": "cp=",
-                    "rank": "3k"
-                },
-                {
-                    "name": "fox21",
-                    "flags": "cp=",
-                    "rank": "8k"
                 },
                 {
                     "name": "matga20",
@@ -2636,24 +2463,9 @@
                     "rank": "2d"
                 },
                 {
-                    "name": "MASYU",
-                    "flags": "cp=",
-                    "rank": "?"
-                },
-                {
                     "name": "aoba2h",
                     "flags": "cp=",
                     "rank": "?"
-                },
-                {
-                    "name": "Keirin",
-                    "flags": "cp=",
-                    "rank": "5k"
-                },
-                {
-                    "name": "AllDead",
-                    "flags": "ca=",
-                    "rank": "2d"
                 },
                 {
                     "name": "Jlason",
@@ -2664,21 +2476,6 @@
                     "name": "SPBBR",
                     "flags": "cap=",
                     "rank": "7k"
-                },
-                {
-                    "name": "saihara",
-                    "flags": "cp=",
-                    "rank": "1d"
-                },
-                {
-                    "name": "hiko777",
-                    "flags": "gcp",
-                    "rank": "?"
-                },
-                {
-                    "name": "dangeorge",
-                    "flags": "c=",
-                    "rank": "4k"
                 },
                 {
                     "name": "kazu21",
@@ -2696,23 +2493,8 @@
                     "rank": "1d"
                 },
                 {
-                    "name": "ponkan",
-                    "flags": "cp=",
-                    "rank": "3d"
-                },
-                {
-                    "name": "Dilemma",
-                    "flags": "cap=~",
-                    "rank": "3d"
-                },
-                {
-                    "name": "guttokuru",
-                    "flags": "gcp",
-                    "rank": "?"
-                },
-                {
                     "name": "omeqa",
-                    "flags": "gcp",
+                    "flags": "gcs",
                     "rank": "?"
                 },
                 {
@@ -2726,28 +2508,13 @@
                     "rank": "6k"
                 },
                 {
-                    "name": "Claus",
-                    "flags": "cs=~",
-                    "rank": "2k"
-                },
-                {
-                    "name": "kimikun",
-                    "flags": "cp=",
-                    "rank": "5k"
-                },
-                {
-                    "name": "ristretto",
-                    "flags": "gcs",
-                    "rank": "?"
-                },
-                {
                     "name": "terry2019",
                     "flags": "cp=~",
                     "rank": "2k"
                 },
                 {
                     "name": "adachi07",
-                    "flags": "cp=",
+                    "flags": "c=",
                     "rank": "4k"
                 },
                 {
@@ -2791,18 +2558,13 @@
                     "rank": "7k"
                 },
                 {
-                    "name": "neutorhi",
-                    "flags": "cp=",
-                    "rank": "5k"
-                },
-                {
                     "name": "scherzo",
                     "flags": "cs=",
                     "rank": "5k"
                 },
                 {
                     "name": "kitaichi",
-                    "flags": "cp=",
+                    "flags": "cs=",
                     "rank": "2k"
                 },
                 {
@@ -2821,7 +2583,7 @@
                 },
                 {
                     "name": "nworld97",
-                    "flags": "cap=",
+                    "flags": "ca=",
                     "rank": "2k"
                 },
                 {
@@ -2832,17 +2594,12 @@
                 {
                     "name": "tomo",
                     "flags": "cp=",
-                    "rank": "14k"
+                    "rank": "12k"
                 },
                 {
                     "name": "Now",
-                    "flags": "ca=",
+                    "flags": "csa=",
                     "rank": "3k"
-                },
-                {
-                    "name": "kristin",
-                    "flags": "ca=",
-                    "rank": "5d?"
                 },
                 {
                     "name": "kdia54656",
@@ -2861,13 +2618,8 @@
                 },
                 {
                     "name": "Toropu4ka",
-                    "flags": "ca=",
+                    "flags": "csa=",
                     "rank": "6k"
-                },
-                {
-                    "name": "nakazu",
-                    "flags": "cp=",
-                    "rank": "1k"
                 },
                 {
                     "name": "brownhut",
@@ -2876,23 +2628,8 @@
                 },
                 {
                     "name": "ChrisVis",
-                    "flags": "c=",
-                    "rank": "?"
-                },
-                {
-                    "name": "mitake",
-                    "flags": "c=",
-                    "rank": "2k"
-                },
-                {
-                    "name": "uht",
-                    "flags": "gcp",
-                    "rank": "?"
-                },
-                {
-                    "name": "fuku69kg",
                     "flags": "cp=",
-                    "rank": "3k"
+                    "rank": "20k?"
                 },
                 {
                     "name": "ja2srok",
@@ -2900,33 +2637,13 @@
                     "rank": "2k"
                 },
                 {
-                    "name": "David0",
-                    "flags": "gcp",
-                    "rank": "?"
-                },
-                {
                     "name": "hirosi805",
-                    "flags": "cp=",
+                    "flags": "c=",
                     "rank": "2k"
                 },
                 {
                     "name": "Cecilia",
                     "flags": "ca=",
-                    "rank": "?"
-                },
-                {
-                    "name": "comfwy",
-                    "flags": "c=m",
-                    "rank": "2d"
-                },
-                {
-                    "name": "Jamagoal",
-                    "flags": "cap=",
-                    "rank": "4k"
-                },
-                {
-                    "name": "guestropod",
-                    "flags": "gcp",
                     "rank": "?"
                 },
                 {
@@ -2936,18 +2653,339 @@
                 },
                 {
                     "name": "a2468",
-                    "flags": "c=~",
+                    "flags": "cs=~",
                     "rank": "7k"
                 },
                 {
-                    "name": "horn",
+                    "name": "kjypfsmw",
+                    "flags": "cp=",
+                    "rank": "6k"
+                },
+                {
+                    "name": "unkaku",
+                    "flags": "cp=",
+                    "rank": "2d"
+                },
+                {
+                    "name": "it",
+                    "flags": "ca=",
+                    "rank": "?",
+                    "authLevel": "sr_admin"
+                },
+                {
+                    "name": "kkotto",
+                    "flags": "cp=",
+                    "rank": "4k"
+                },
+                {
+                    "name": "q2hi61948",
+                    "flags": "gcs",
+                    "rank": "?"
+                },
+                {
+                    "name": "Gengar",
+                    "flags": "ca=",
+                    "rank": "2k"
+                },
+                {
+                    "name": "gg6",
+                    "flags": "cp=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "dghk",
+                    "flags": "gcs",
+                    "rank": "?"
+                },
+                {
+                    "name": "shigekim",
+                    "flags": "cp=",
+                    "rank": "?"
+                },
+                {
+                    "name": "gousei",
+                    "flags": "cp=",
+                    "rank": "1k"
+                },
+                {
+                    "name": "Mame",
+                    "flags": "csa=",
+                    "rank": "6k"
+                },
+                {
+                    "name": "glotesh",
+                    "flags": "cp=",
+                    "rank": "?"
+                },
+                {
+                    "name": "neaufits",
+                    "flags": "cp=",
+                    "rank": "1d"
+                },
+                {
+                    "name": "kenny1958",
+                    "flags": "cp=",
+                    "rank": "2k"
+                },
+                {
+                    "name": "shant",
+                    "flags": "cp=",
+                    "rank": "4k"
+                },
+                {
+                    "name": "bv4",
+                    "flags": "cs=",
+                    "rank": "1k"
+                },
+                {
+                    "name": "jagjag",
+                    "flags": "cp=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "vijah4",
+                    "flags": "gcp",
+                    "rank": "?"
+                },
+                {
+                    "name": "ThuaHoa",
+                    "flags": "cp=",
+                    "rank": "15k?"
+                },
+                {
+                    "name": "iwa4423",
+                    "flags": "cs=",
+                    "rank": "4d"
+                },
+                {
+                    "name": "snootli",
+                    "flags": "cp=",
+                    "rank": "1k"
+                },
+                {
+                    "name": "q007",
+                    "flags": "cp=",
+                    "rank": "2k"
+                },
+                {
+                    "name": "tomosann",
+                    "flags": "cp=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "foxtrotzou",
+                    "flags": "cap=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "tavan",
+                    "flags": "cp=",
+                    "rank": "?"
+                },
+                {
+                    "name": "chato",
+                    "flags": "cp=",
+                    "rank": "6k"
+                },
+                {
+                    "name": "PUHAT",
+                    "flags": "cp=",
+                    "rank": "2k"
+                },
+                {
+                    "name": "vgjh",
+                    "flags": "gcm",
+                    "rank": "?"
+                },
+                {
+                    "name": "Gondorand",
+                    "flags": "c=",
+                    "rank": "?"
+                },
+                {
+                    "name": "zzz29",
+                    "flags": "cp=~",
+                    "rank": "11k"
+                },
+                {
+                    "name": "argaman",
+                    "flags": "c=~",
+                    "rank": "1k"
+                },
+                {
+                    "name": "ngarry",
+                    "flags": "ca",
+                    "authLevel": "sr_admin"
+                },
+                {
+                    "name": "cfhpatrice",
+                    "flags": "cp=",
+                    "rank": "19k"
+                },
+                {
+                    "name": "KaupervudA",
+                    "flags": "c=",
+                    "rank": "?"
+                },
+                {
+                    "name": "akiyoshi2",
+                    "flags": "c=",
+                    "rank": "2k"
+                },
+                {
+                    "name": "Giharka",
+                    "flags": "cp=",
+                    "rank": "9k"
+                },
+                {
+                    "name": "raymondbif",
+                    "flags": "cp=",
+                    "rank": "5k"
+                },
+                {
+                    "name": "Plostr",
+                    "flags": "cp=",
+                    "rank": "22k"
+                },
+                {
+                    "name": "martinie4",
+                    "flags": "c=",
+                    "rank": "?"
+                },
+                {
+                    "name": "masaki807",
+                    "flags": "c=",
+                    "rank": "2d"
+                },
+                {
+                    "name": "yukinari",
+                    "flags": "cp=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "shawnlo",
+                    "flags": "cap=",
+                    "rank": "5k"
+                },
+                {
+                    "name": "ryokann",
+                    "flags": "cp=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "titop10",
+                    "flags": "gcp",
+                    "rank": "?"
+                },
+                {
+                    "name": "sabbah",
+                    "flags": "cp=",
+                    "rank": "6k"
+                },
+                {
+                    "name": "Maxsoussou",
+                    "flags": "c=",
+                    "rank": "?"
+                },
+                {
+                    "name": "khoo",
+                    "flags": "gc",
+                    "rank": "?"
+                },
+                {
+                    "name": "colonel",
+                    "flags": "cp=",
+                    "rank": "7k"
+                },
+                {
+                    "name": "kakazan",
+                    "flags": "c=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "KGS01",
+                    "flags": "cp=",
+                    "rank": "1k?"
+                },
+                {
+                    "name": "Langseth",
+                    "flags": "cap=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "junyahi",
+                    "flags": "c=",
+                    "rank": "?"
+                },
+                {
+                    "name": "Dilemma",
+                    "flags": "cap=~",
+                    "rank": "3d"
+                },
+                {
+                    "name": "Margoanou",
+                    "flags": "cp=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "sadmac",
+                    "flags": "c=",
+                    "rank": "6k"
+                },
+                {
+                    "name": "xsasha",
+                    "flags": "cp=~",
+                    "rank": "1k"
+                },
+                {
+                    "name": "fantomas63",
+                    "flags": "ca=",
+                    "rank": "5k"
+                },
+                {
+                    "name": "softhand",
+                    "flags": "c=~",
+                    "rank": "1k"
+                },
+                {
+                    "name": "Gwinru",
+                    "flags": "cap=~",
+                    "rank": "5k"
+                },
+                {
+                    "name": "Apeq",
+                    "flags": "cp=",
+                    "rank": "6k"
+                },
+                {
+                    "name": "snoopy",
+                    "flags": "ca=",
+                    "rank": "2d"
+                },
+                {
+                    "name": "pontanuki",
+                    "flags": "c=",
+                    "rank": "3k"
+                },
+                {
+                    "name": "MASYU",
+                    "flags": "c=",
+                    "rank": "?"
+                },
+                {
+                    "name": "o0key",
                     "flags": "c=",
                     "rank": "3d?"
                 },
                 {
-                    "name": "htsapp3577",
+                    "name": "yyjm",
                     "flags": "gc",
                     "rank": "?"
+                },
+                {
+                    "name": "iwanagg39",
+                    "flags": "c=",
+                    "rank": "2k"
                 },
                 {
                     "name": "jsongame",
@@ -6964,11 +7002,11 @@
                 "flags": "=",
                 "rank": "9d"
             },
-            "channelId": 41377559
+            "channelId": 41378602
         },
         {
             "type": "JOIN_COMPLETE",
-            "channelId": 41377559
+            "channelId": 41378602
         }
     ]
 }

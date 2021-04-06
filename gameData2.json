@@ -27,7 +27,7 @@
                     },
                     "moveNum": 188,
                     "global": true,
-                    "channelId": 41377561,
+                    "channelId": 41378604,
                     "roomId": 22
                 }
             ],
@@ -60,7 +60,7 @@
                 },
                 "moveNum": 188,
                 "global": true,
-                "channelId": 41377561,
+                "channelId": 41378604,
                 "roomId": 22
             },
             "type": "GAME_NOTIFY"
@@ -92,8 +92,8 @@
                 },
                 "handicap": 0,
                 "inPlay": true,
-                "timestamp": "2021-04-06T06:54:35.607Z",
-                "revision": 65
+                "timestamp": "2021-04-06T07:15:38.661Z",
+                "revision": 75
             },
             "doneId": 0,
             "global": true,
@@ -7418,12 +7418,12 @@
                     }
                 }
             ],
-            "channelId": 41377561,
+            "channelId": 41378604,
             "blackScore": 0
         },
         {
             "type": "JOIN_COMPLETE",
-            "channelId": 41377561
+            "channelId": 41378604
         }
     ]
 }

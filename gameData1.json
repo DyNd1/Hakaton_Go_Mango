@@ -1,14 +1,6 @@
 {
     "messages": [
         {
-            "type": "USER_UPDATE",
-            "user": {
-                "name": "Jamagoal",
-                "flags": "ca=",
-                "rank": "4k"
-            }
-        },
-        {
             "games": [
                 {
                     "gameType": "review",
@@ -35,7 +27,7 @@
                     },
                     "moveNum": 102,
                     "global": true,
-                    "channelId": 41377560,
+                    "channelId": 41378603,
                     "roomId": 22
                 }
             ],
@@ -68,7 +60,7 @@
                 },
                 "moveNum": 102,
                 "global": true,
-                "channelId": 41377560,
+                "channelId": 41378603,
                 "roomId": 22
             },
             "type": "GAME_NOTIFY"
@@ -3976,8 +3968,8 @@
                 },
                 "handicap": 0,
                 "inPlay": true,
-                "timestamp": "2021-04-06T06:54:35.122Z",
-                "revision": 64
+                "timestamp": "2021-04-06T07:15:38.230Z",
+                "revision": 74
             },
             "global": true,
             "type": "GAME_JOIN",
@@ -3991,7 +3983,7 @@
                     }
                 }
             ],
-            "channelId": 41377560,
+            "channelId": 41378603,
             "users": [
                 {
                     "name": "jsongame",
@@ -4002,7 +3994,7 @@
         },
         {
             "type": "JOIN_COMPLETE",
-            "channelId": 41377560
+            "channelId": 41378603
         }
     ]
 }
