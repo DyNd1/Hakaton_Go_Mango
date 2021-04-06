@@ -1,11 +1,8 @@
-jGoBoard
+Кейс от команды Mango
 ========
-
-JavaScript-based library for rendering goban (go board).
-
-This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/deed.en_US
-
-Homepage: http://jgoboard.com
-GitHub: http://github.com/jokkebk/jgoboard
-
-You can find simple demo applications in in the root folder and API documentation in doc/ subfolder. More information about the library and its usage in the above address.
+Рекомендуемая версия python - 3.9.0 64-bit
+Перед запуском программы, в командной строке нужно прописать:
+1. pip install flask
+2. pip install requests-html
+3. Запускаем файл FORTABLE.py через консоль командой (python FORTABLE.py) в папке проекта.
+4. Заходим в браузер на сайт http://127.0.0.1:5000/
